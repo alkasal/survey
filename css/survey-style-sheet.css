@@ -1,0 +1,49 @@
+
+.container{position: relative;    height: 100vh;}
+.form-goal {
+    max-width: 600px;
+    width: 100%;
+    top:50%;
+    left:50%;
+    display: block;
+    text-align: center;
+    position:absolute;
+    transform:translate(-50%, -50%);
+    padding: 0 15px;
+}
+
+.text-left {
+    text-align: left !important;
+    padding-right: 13px;
+}
+
+.form-goal h2 {
+    margin: 30px 0 30px 0;
+}
+
+.form-goal .btn-default {
+    color: #fff;
+    background-color: #488df5;
+    border-color: #488df5;
+    float: left;
+    padding: 7px 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+@media screen and (max-width: 767px){
+
+
+.form-goal h2 {
+    font-size: 18px;
+
+}
+
+.form-goal label {
+    display: none;
+}
+.form-goal .btn-default {
+    float: none;
+}
+
+}
